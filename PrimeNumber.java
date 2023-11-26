@@ -9,9 +9,9 @@ import java.util.Scanner;
 	    
 	    System.out.print(" ENTER USERINPUT : ");
 	
-	      int a = userInput.nextInt();
+	      double a = userInput.nextDouble();
 	
-		int x= a/ 1,userInput;
+		double  x= a / 1 && userInput;
 
 		 if (userInput.equal("only two factors")){
 			System.out.println(" IT IS A PRIME NUMBER BLOODY WIMPS ");
