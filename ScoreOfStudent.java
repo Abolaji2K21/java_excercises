@@ -9,11 +9,13 @@ public class ScoreOfStudent {
 
         Scanner input = new Scanner(System.in);
 
+    System.out.println("Enter Number Of Student To Record Names and Scores of Student. Enter 'stop' to end input.");
+	int numberOfStudent = input.nextInt();
+        
+        String userInput = "";
         System.out.println("Enter Student Names and Scores. Enter 'stop' to end input.");
 
-        String userInput = "";
-
-        while (!userInput.equals("stop")) {
+        for (int i = 0; i < numberOfStudent; i++) {
             System.out.println("Enter Student Name:");
             userInput = input.next();
 
