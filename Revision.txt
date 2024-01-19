@@ -1,0 +1,18 @@
+Relational operators >, <, >=, <= = 
+Multiplication, division, and remainder (*, /, %)
+Addition and subtraction (+, -)
+
+required constructor 
+no argument 
+all argument 
+default 
+
+Yes, in Java, a constructor must have the same name as the class. The constructor is a special type of method used for initializing objects, and its name must match the class name exactly.
+
+the three control structure 
+
+sequence 
+selection if if else switch 
+iteration whwile forloop  
+
+The continue statement is used within loops to skip the remaining code in the loop body for the current iteration.
